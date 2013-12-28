@@ -6,4 +6,5 @@
 /Users/noah/Development/stations/apps/stations/platforms/android/bin/classes/com/example/stations/R$xml.class \
 /Users/noah/Development/stations/apps/stations/platforms/android/bin/classes/com/example/stations/R.class \
 /Users/noah/Development/stations/apps/stations/platforms/android/bin/classes/com/example/stations/Stations.class \
+/Users/noah/Development/stations/apps/stations/platforms/android/bin/classes/org/apache/cordova/plugins/Chromecast.class \
 /Users/noah/Development/stations/apps/stations/platforms/android/bin/dexedLibs/classes-22ade72d118a26311ed76d7f5980b44d.jar \

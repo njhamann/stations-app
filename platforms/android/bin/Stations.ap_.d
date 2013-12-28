@@ -19,6 +19,7 @@
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/index.html \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/javascripts \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/playlists.json \
+/Users/noah/Development/stations/apps/stations/platforms/android/assets/www/plugins \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/README.md \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/styles \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/vendors \
@@ -85,6 +86,9 @@
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/javascripts/jquery-2.0.3.min.js \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/javascripts/remote.js \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/javascripts/underscore-min.js \
+/Users/noah/Development/stations/apps/stations/platforms/android/assets/www/plugins/org.apache.cordova.plugin.chromecast \
+/Users/noah/Development/stations/apps/stations/platforms/android/assets/www/plugins/org.apache.cordova.plugin.chromecast/www \
+/Users/noah/Development/stations/apps/stations/platforms/android/assets/www/plugins/org.apache.cordova.plugin.chromecast/www/chromecast.js \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/styles/core.css \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/vendors/bootstrap \
 /Users/noah/Development/stations/apps/stations/platforms/android/assets/www/vendors/bootstrap/css \

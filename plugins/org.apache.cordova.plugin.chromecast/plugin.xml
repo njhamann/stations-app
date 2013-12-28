@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="org.apache.cordova.plugin.chromecast"
+    version="0.0.1">
+
+    <name>Chromecast</name>
+    <description>Cordova Chromecast Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, chromecast</keywords>
+
+    <js-module src="www/chromecast.js" name="chromecast">
+        <clobbers target="chromecast"/>
+    </js-module>
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Chromecast">
+                <param name="ios-package" value="Chromecast"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Chromecast.h"/>
+        <source-file src="src/ios/Chromecast.m"/>
+    </platform>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Chromecast" >
+                <param name="android-package" value="org.apache.cordova.plugin.chromecast"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Chromecast.java" target-dir="src/org/apache/cordova/plugins" />
+    </platform>
+</plugin>

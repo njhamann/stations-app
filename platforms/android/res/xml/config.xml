@@ -17,4 +17,8 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <feature name="Chromecast">
+        <param name="android-package" value="org.apache.cordova.plugin.chromecast" />
+    </feature>
 </widget>

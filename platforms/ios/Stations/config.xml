@@ -19,6 +19,9 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
+    <feature name="Chromecast">
+        <param name="ios-package" value="Chromecast" />
+    </feature>
     <name>Stations</name>
     <description>
         Stations
@@ -28,4 +31,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
 </widget>

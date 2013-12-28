@@ -467,3 +467,33 @@ function setVolume(v) {
       new cast.MediaVolumeRequest(v, false),
       function() {});
 }
+
+
+
+//cordova init
+var app = {
+    initialize: function() {
+        this.bindEvents();
+    },
+    bindEvents: function() {
+        document.addEventListener('deviceready', this.onDeviceReady, false);
+    },
+    onDeviceReady: function() {
+        app.receivedEvent('deviceready');
+        alert('onDeviceReady');
+        window.chomecast("echome", function(echoValue) {
+            alert(echoValue == "echome"); // should alert true.
+        });
+    },
+    receivedEvent: function(id) {
+        var parentElement = document.getElementById(id);
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
+
+        console.log('Received Event: ' + id);
+    }
+};
+
